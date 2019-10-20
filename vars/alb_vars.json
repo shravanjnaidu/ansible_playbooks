@@ -1,0 +1,15 @@
+{
+    "target_group_name": "",
+    "vpc_id": "",
+    "region": "",
+    "alb_name": "",
+    "subnet_id_1": "",
+    "subnet_id_2": "",
+    "security_group": "",
+    "keyname": "",
+    "ec2_instance_type": "",
+    "ami_id": "",
+    "ec2_count": "",
+    "volume_size": "",
+    "ec2_subnet_id": ""
+}

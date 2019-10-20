@@ -1,0 +1,12 @@
+- hosts: localhost
+  tasks:
+    - name: Create RDS instance 
+      rds:
+        command: create
+        instance_name: "{{ instance_name }}"
+        db_engine: oracle-ee
+        size: "{{ size }}"
+        instance_type: "{{ instance_type }}"
+        username: "{{ username }}"
+        password: "{{ password }}"
+        region: "{{ region }}"
